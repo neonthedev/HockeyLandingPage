@@ -52,6 +52,8 @@
   </head>
 
   <body>
+    <!-- --Header Navbar section starts-- -->
+
     <header class="mt-4">
       <div class="container mx-auto md">
         <div class="navbar bg-white px-0 px-1">
@@ -137,119 +139,280 @@
     </header>
 
     <main>
+      <!-- --Banner section starts-- -->
 
-  <!-- --Banner section starts-- -->
+      <section class="container mx-auto px-3 mt-6 lg:mt-14">
+        <div class="relative">
+          <div class="carousel w-full rounded-xl relative">
+            <!-- Slides-1 -->
+            <div
+              id="slide1"
+              class="carousel-item relative w-full bg-[url('../images/slider1.png')] bg-cover bg-center h-[220px] lg:h-[560px]"
+            >
+              <div
+                class="absolute flex justify-center gap-2 left-5 right-5 lg:-left-[80%] lg:right-0 top-[70%]"
+              >
+                <a
+                  href="#slide4"
+                  class="btn btn-circle bg-black text-white border-0"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="btn btn-circle bg-black text-white border-0"
+                  >❯</a
+                >
+              </div>
+            </div>
 
-    <section class="container mx-auto px-3 mt-6 lg:mt-14">
-      <div class="relative">
-        <div class="carousel w-full rounded-xl relative">
+            <!-- Slides-2 -->
 
-          <!-- Slides-1 -->
-          <div id="slide1"
-            class="carousel-item relative w-full bg-[url('../images/slider1.png')] bg-cover bg-center h-[220px] lg:h-[560px]">
-            <div class="absolute flex justify-center gap-2 left-5 right-5 lg:-left-[80%] lg:right-0 top-[70%]">
-              <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❮</a>
-              <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❯</a>
+            <div
+              id="slide2"
+              class="carousel-item relative w-full bg-[url('../images/slider2.png')] bg-cover bg-center h-[220px] lg:h-[560px]"
+            >
+              <div
+                class="absolute flex justify-center gap-2 left-5 right-5 lg:-left-[80%] lg:right-0 top-[70%]"
+              >
+                <a
+                  href="#slide1"
+                  class="btn btn-circle bg-black text-white border-0"
+                  >❮</a
+                >
+                <a
+                  href="#slide3"
+                  class="btn btn-circle bg-black text-white border-0"
+                  >❯</a
+                >
+              </div>
+            </div>
+
+            <!-- Slides-3 -->
+
+            <div
+              id="slide3"
+              class="carousel-item relative w-full bg-[url('../images/slider3.png')] bg-cover bg-center h-[220px] lg:h-[560px]"
+            >
+              <div
+                class="absolute flex justify-center gap-2 left-5 right-5 lg:-left-[80%] lg:right-0 top-[70%]"
+              >
+                <a
+                  href="#slide2"
+                  class="btn btn-circle bg-black text-white border-0"
+                  >❮</a
+                >
+                <a
+                  href="#slide4"
+                  class="btn btn-circle bg-black text-white border-0"
+                  >❯</a
+                >
+              </div>
+            </div>
+
+            <!-- Slides-4 -->
+
+            <div
+              id="slide4"
+              class="carousel-item relative w-full bg-[url('../images/slider4.png')] bg-cover bg-center h-[220px] lg:h-[560px]"
+            >
+              <div
+                class="absolute flex justify-center gap-2 left-5 right-5 lg:-left-[80%] lg:right-0 top-[70%]"
+              >
+                <a
+                  href="#slide3"
+                  class="btn btn-circle bg-black text-white border-0"
+                  >❮</a
+                >
+                <a
+                  href="#slide1"
+                  class="btn btn-circle bg-black text-white border-0"
+                  >❯</a
+                >
+              </div>
             </div>
           </div>
 
-          <!-- Slides-2 -->
-
-          <div id="slide2"
-            class="carousel-item relative w-full bg-[url('../images/slider2.png')] bg-cover bg-center h-[220px] lg:h-[560px]">
-            <div class="absolute flex justify-center gap-2 left-5 right-5 lg:-left-[80%] lg:right-0 top-[70%]">
-              <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❮</a>
-              <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❯</a>
-            </div>
-          </div>
-
-          <!-- Slides-3 -->
-
-          <div id="slide3"
-            class="carousel-item relative w-full bg-[url('../images/slider3.png')] bg-cover bg-center h-[220px] lg:h-[560px]">
-            <div class="absolute flex justify-center gap-2 left-5 right-5 lg:-left-[80%] lg:right-0 top-[70%]">
-              <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❮</a>
-              <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❯</a>
-            </div>
-          </div>
-
-          <!-- Slides-4 -->
-
-          <div id="slide4"
-            class="carousel-item relative w-full bg-[url('../images/slider4.png')] bg-cover bg-center h-[220px] lg:h-[560px]">
-            <div class="absolute flex justify-center gap-2 left-5 right-5 lg:-left-[80%] lg:right-0 top-[70%]">
-              <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❮</a>
-              <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❯</a>
-            </div>
+          <!-- Black Box section starts-->
+          <div
+            class="text-white bg-black lg:absolute md:absolute -translate-y-[0.5%] md:translate-y-0 lg:translate-y-0 w-full my-3 lg:w-[40%] lg:top-[50%] lg:left-[50%] rounded-xl p-4 lg:p-8 space-y-2 lg:space-y-4"
+          >
+            <h1 class="text-lg lg:text-2xl font-extrabold">
+              Meet all the heroes from the field
+            </h1>
+            <p class="text-sm lg:text-base font-medium max-w-[502px]">
+              Step into the world of legends and meet all the heroes from the
+              field who redefine the game with skill, passion, and unwavering
+              determination.
+            </p>
           </div>
         </div>
-        <!-- Black Box section -->
+      </section>
+
+      <!-- --Club section starts-- -->
+
+      <section class="container mx-auto px-3 mt-10 lg:mt-12">
+        <div class="text-center border-y-2 border-dashed p-8 lg:mb-12">
+          <h1 class="text-xl pb-4 font-extrabold lg:text-4xl lg:pb-6">
+            Professional Hockey Club
+          </h1>
+          <p class="mx-auto max-w-[607px]">
+            At Hockey's, excellence is our tradition. Experience the pinnacle of
+            hockey with our Professional Hockey Club.
+          </p>
+        </div>
+
+        <!-- --Radial ProgressCircle Section starts-- -->
 
         <div
-           class="text-white bg-black lg:absolute md:absolute -translate-y-[0.5%] md:translate-y-0 lg:translate-y-0 w-full my-3 lg:w-[40%] lg:top-[50%] lg:left-[50%] rounded-xl p-4 lg:p-8 space-y-2 lg:space-y-4">
-                    <h1 class="text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h1>
-                    <p class="text-sm lg:text-base font-medium max-w-[502px]">Step into the world of legends and meet all the heroes from the field who redefine the game with skill, passion, and unwavering determination.
-                    </p>
-                </div>
-      </div>
-    </section>
+          class="lg:mt-12 space-y-6 lg:space-y-0 flex-row lg:flex justify-center items-center gap-8"
+        >
+          <!-- progressCircle-1 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-red-500 rotate-180"
+              style="--value: 87"
+              role="progressbar"
+            >
+              <span class="-rotate-180 text-xl font-extrabold text-black"
+                >87%</span
+              >
+            </div>
+            <h1 class="pt-6 text-xl font-semibold">Prayer Facility</h1>
+            <p class="max-w-[220px] mx-auto pt-4 text-[#13131899]">
+              Providing a tranquil space for moments of contemplation.
+            </p>
+          </div>
 
-  </main>
+          <!-- progressCircle-2 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-green-500 rotate-180"
+              style="--value: 95"
+              role="progressbar"
+            >
+              <span class="-rotate-180 text-xl font-extrabold text-black"
+                >95%</span
+              >
+            </div>
+            <h1 class="pt-6 text-xl font-semibold">Experienced Coach</h1>
+            <p class="max-w-[220px] mx-auto pt-4 text-[#13131899]">
+              Craft your success with Our coaches leading the way.
+            </p>
+          </div>
 
-<!-- --Footer section Starts-- -->
+          <!-- progressCircle-3 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-orange-500 rotate-180"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <span class="-rotate-180 text-xl font-extrabold text-black"
+                >90%</span
+              >
+            </div>
+            <h1 class="pt-6 text-xl font-semibold">Senior Player</h1>
+            <p class="max-w-[220px] mx-auto pt-4 text-[#13131899]">
+              Our senior players embody and inspire the next gen.
+            </p>
+          </div>
 
-  <footer class="bg-[#131318] text-white p-12 lg:p-32 mt-16 lg:mt-16">
-    <div class="container mx-auto flex-row lg:flex justify-around space-y-5">
-      <!-- Footer Left side -->
+          <!-- progressCircle-4 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-blue-500 rotate-180"
+              style="--value: 80"
+              role="progressbar"
+            >
+              <span class="-rotate-180 text-xl font-extrabold text-black"
+                >80%</span
+              >
+            </div>
+            <h1 class="pt-6 text-xl font-semibold">Training Ground</h1>
+            <p class="max-w-[220px] mx-auto pt-4 text-[#13131899]">
+              Our training grounds are the foundation for champions.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <div class="space-y-4 text-center lg:text-left">
-        <h1 class="text-2xl lg:text-3xl font-extrabold">Get In Touch</h1>
-        <p class="max-w-[346px]">
-          Connect with us today! Whether you have questions, feedback, or just want to chat hockey, getting in touch is the first step towards joining our vibrant community.
-      </p>
-      <p class=""> <span><i class="fa-solid fa-envelope text-[#FF4240]"></i></span> hockeys@support.com</p>
-      <p><span><i class="fa-solid fa-phone text-[#FF4240]"></i></span> (+62) 123-321-543</p>
+      <!-- --Programs Sections Starts -->
 
-      </div>
+      <section class="container mx-auto px-3 mt-10 lg:mt-12">
+        <div class="text-center border-y-2 border-dashed p-8 lg:mb-12">
+          <h1 class="text-xl pb-4 font-extrabold lg:text-4xl lg:pb-6">
+            Program Sections
+          </h1>
+          <p class="mx-auto max-w-[607px]">
+            Dive into our Program Section, your gateway to tailored
+            experiences.Discover the perfect path to elevate your hockey journey
+          </p>
+        </div>
 
-      <!-- --Footer right side 3 quicklinks-- -->
-      <div class="flex justify-between gap-16 lg:gap-40">
-        <div class="space-y-5 text-center lg:text-left">
+        <div class="mt-12">
+          <div class="grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- --Footer section Starts-- -->
+
+    <footer class="bg-[#131318] text-white p-12 lg:p-32 mt-16 lg:mt-16">
+      <div class="container mx-auto flex-row lg:flex justify-around space-y-5">
+        <!-- Footer Left side -->
+
+        <div class="space-y-4 text-center lg:text-left">
+          <h1 class="text-2xl lg:text-3xl font-extrabold">Get In Touch</h1>
+          <p class="max-w-[346px]">
+            Connect with us today! Whether you have questions, feedback, or just
+            want to chat hockey, getting in touch is the first step towards
+            joining our vibrant community.
+          </p>
+          <p class="">
+            <span><i class="fa-solid fa-envelope text-[#FF4240]"></i></span>
+            hockeys@support.com
+          </p>
+          <p>
+            <span><i class="fa-solid fa-phone text-[#FF4240]"></i></span> (+62)
+            123-321-543
+          </p>
+        </div>
+
+        <!-- --Footer right side 3 quicklinks section-- -->
+
+        <div class="flex justify-between gap-16 lg:gap-40">
+          <div class="space-y-5 text-center lg:text-left">
             <h1 class="text-xl font-bold">Company</h1>
             <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Leadership</a></li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">News & Article</a></li>
-                <li><a href="">Legal Notice</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Leadership</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">News & Article</a></li>
+              <li><a href="">Legal Notice</a></li>
             </ul>
-        </div>
-        <div class="space-y-5 text-center lg:text-left">
+          </div>
+          <div class="space-y-5 text-center lg:text-left">
             <h1 class="text-xl font-bold">Support</h1>
             <ul class="">
-                <li><a href="">Help Center</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Ticket Support</a></li>
-                <li><a href="">Contact Us</a></li>
+              <li><a href="">Help Center</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Ticket Support</a></li>
+              <li><a href="">Contact Us</a></li>
             </ul>
+          </div>
         </div>
-    </div>
 
-    <div class="space-y-5 text-center lg:text-left">
-      <h1 class="text-xl font-bold">Services</h1>
-      <ul class="">
-          <li><a href="">Academy</a></li>
-          <li><a href="">Group Lesson</a></li>
-          <li><a href="">Private Lesson</a></li>
-          <li><a href="">Hockeys for Kids</a></li>
-          <li><a href="">Hockeys for Adult</a></li>
-      </ul>
-
-  </div>
-
-    </div>
-  </footer>
-
-
+        <div class="space-y-5 text-center lg:text-left">
+          <h1 class="text-xl font-bold">Services</h1>
+          <ul class="">
+            <li><a href="">Academy</a></li>
+            <li><a href="">Group Lesson</a></li>
+            <li><a href="">Private Lesson</a></li>
+            <li><a href="">Hockeys for Kids</a></li>
+            <li><a href="">Hockeys for Adult</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
